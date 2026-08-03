@@ -1,12 +1,9 @@
-import { siteConfig } from '../data/siteConfig';
-
 const Footer = () => {
   return (
-    <footer className="border-t border-white/10 bg-navy/90 py-8 text-sm text-slate-400">
-      <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 text-center md:flex-row md:items-center md:justify-between md:text-left md:px-10">
-        <p>© {new Date().getFullYear()} {siteConfig.name}. Crafted for a strong digital presence.</p>
-        <p>
-          Built with React, TypeScript, Tailwind, and thoughtful motion.
+    <footer className="border-t border-slate-200/20 bg-white/50 py-8 dark:border-white/10 dark:bg-navy/90 transition-colors duration-300">
+      <div className="mx-auto max-w-7xl px-6 md:px-10">
+        <p className="text-center text-sm text-slate-600 dark:text-slate-400">
+          Designed & Developed by ❤️ Ramya Abothula © 2026
         </p>
       </div>
     </footer>

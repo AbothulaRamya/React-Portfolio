@@ -20,9 +20,9 @@ const Education = () => {
             transition={{ duration: 0.55, ease: 'easeOut' }}
             className="rounded-[28px] border border-slate-200/80 bg-slate-50/90 p-6 shadow-sm shadow-slate-900/5 dark:border-slate-700/60 dark:bg-slate-900/80"
           >
-            <div className="flex items-center justify-between gap-4 text-sm text-slate-500 dark:text-slate-400">
+            <div className="flex items-center justify-between gap-4 text-sm">
               <span className="font-semibold uppercase tracking-[0.2em] text-slate-900 dark:text-white">{item.year}</span>
-              <span className="text-right text-slate-500 dark:text-slate-400">{item.title}</span>
+              <span className="text-right text-slate-600 dark:text-slate-400">{item.title}</span>
             </div>
             <p className="mt-4 text-sm leading-7 text-slate-700 dark:text-slate-300">{item.detail}</p>
           </motion.article>
