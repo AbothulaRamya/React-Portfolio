@@ -42,14 +42,14 @@ export const experience = [
     ],
   },
   {
-    role: 'Data Analyst Intern',
-    company: 'Edunet Foundation',
-    duration: '2024',
-    tech: ['Python', 'Power BI', 'Data Visualization'],
+    role: 'GenAI Powered Data Analytics Job Simulation',
+    company: 'TATA Group | Forage',
+    duration: 'May 2026',
+    tech: ['Data Analytics', 'GenAI', 'Business Intelligence', 'Exploratory Data Analysis', 'Data Storytelling', 'Predictive Analytics', 'Risk Profiling'],
     points: [
-      'Built analytical workflows and interactive dashboards for business insights.',
-      'Translated raw data into clear reports and visual summaries.',
-      'Focused on data quality, interpretation, and presentation.',
+      'Completed the TATA Group GenAI Powered Data Analytics Job Simulation on Forage.',
+      'Worked on exploratory data analysis, AI-assisted risk profiling, and predicting customer delinquency using AI.',
+      'Developed business reports, data storytelling, and implemented AI-driven collections strategies.',
     ],
   },
   {
