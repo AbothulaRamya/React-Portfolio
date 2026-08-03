@@ -8,7 +8,11 @@ const Header = () => {
     // Load theme from localStorage on mount
     if (typeof window !== 'undefined') {
       const saved = localStorage.getItem('theme') as 'light' | 'dark' | null;
-      return saved || 'dark';
+      const initialTheme = saved || 'dark';
+      // Apply immediately
+      document.documentElement.classList.remove('light', 'dark');
+      document.documentElement.classList.add(initialTheme);
+      return initialTheme;
     }
     return 'dark';
   });
