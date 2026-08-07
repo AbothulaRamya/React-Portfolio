@@ -3,9 +3,8 @@ import { siteConfig } from '../data/siteConfig';
 
 const About = () => {
   return (
-    <section id="about" className="py-24 lg:py-28">
-      <div className="mx-auto max-w-6xl px-6">
-        <div className="grid items-stretch gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-14">
+    <section id="about" className="relative overflow-hidden rounded-[32px] border border-slate-200/10 bg-white/90 px-6 py-10 shadow-glow shadow-slate-700/10 backdrop-blur-xl dark:border-slate-700/40 dark:bg-slate-950/80 lg:px-10 lg:py-12">
+      <div className="grid items-stretch gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-14">
           <div className="flex flex-col justify-between">
             <div>
               <p className="mb-3 font-semibold text-cyan">About Me</p>
@@ -64,7 +63,6 @@ const About = () => {
             </div>
           </motion.div>
         </div>
-      </div>
     </section>
   );
 };
